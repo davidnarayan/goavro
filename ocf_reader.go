@@ -21,11 +21,12 @@ package goavro
 import (
 	"bufio"
 	"bytes"
-	"code.google.com/p/snappy-go/snappy"
 	"compress/flate"
 	"fmt"
 	"io"
 	"io/ioutil"
+
+	"github.com/golang/snappy/snappy"
 )
 
 // ErrReaderInit is returned when the encoder encounters an error.

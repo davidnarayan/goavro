@@ -21,13 +21,14 @@ package goavro
 import (
 	"bufio"
 	"bytes"
-	"code.google.com/p/snappy-go/snappy"
 	"compress/flate"
 	"fmt"
 	"io"
 	"log"
 	"math/rand"
 	"time"
+
+	"github.com/golang/snappy/snappy"
 )
 
 // DefaultWriterBlockSizeo specifies the default number of datum items
